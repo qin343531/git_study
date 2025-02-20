@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.000912] (my_package_tsp) JobQueued: {'identifier': 'my_package_tsp', 'dependencies': OrderedDict()}
+[0.000974] (my_package_tspc) JobQueued: {'identifier': 'my_package_tspc', 'dependencies': OrderedDict()}
+[0.001015] (my_package_tsp) JobStarted: {'identifier': 'my_package_tsp'}
+[0.013415] (my_package_tspc) JobStarted: {'identifier': 'my_package_tspc'}
+[0.100036] (-) TimerEvent: {}
+[0.200956] (-) TimerEvent: {}
+[0.226818] (my_package_tspc) JobProgress: {'identifier': 'my_package_tspc', 'progress': 'cmake'}
+[0.228814] (my_package_tspc) Command: {'cmd': ['/usr/bin/cmake', '/home/qin/ros2_ws/src/my_package_tspc', '-DCMAKE_INSTALL_PREFIX=/home/qin/ros2_ws/install/my_package_tspc'], 'cwd': '/home/qin/ros2_ws/build/my_package_tspc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'qin'), ('SSH_CLIENT', '192.168.1.11 64307 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/qin'), ('OLDPWD', '/home/qin'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'qin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/qin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/qin/ros2_ws/build/my_package_tspc'), ('SSH_CONNECTION', '192.168.1.11 64307 192.168.1.18 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.294950] (my_package_tspc) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.301188] (-) TimerEvent: {}
+[0.364410] (my_package_tspc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.368468] (my_package_tspc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.401655] (-) TimerEvent: {}
+[0.459916] (my_package_tspc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.461087] (my_package_tspc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.501873] (-) TimerEvent: {}
+[0.572242] (my_package_tspc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.581157] (my_package_tspc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.581542] (my_package_tspc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.583617] (my_package_tspc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.603293] (my_package_tsp) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package_tsp', 'build', '--build-base', '/home/qin/ros2_ws/build/my_package_tsp/build', 'install', '--record', '/home/qin/ros2_ws/build/my_package_tsp/install.log', '--install-scripts', '$base/lib/my_package_tsp', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/qin/ros2_ws/src/my_package_tsp', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh:en_US:en', 'USER': 'qin', 'SSH_CLIENT': '192.168.1.11 64307 22', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/qin', 'OLDPWD': '/home/qin', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'qin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/qin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'PWD': '/home/qin/ros2_ws/build/my_package_tsp', 'SSH_CONNECTION': '192.168.1.11 64307 192.168.1.18 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/qin/ros2_ws/build/my_package_tsp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1'}, 'shell': False}
+[0.607500] (-) TimerEvent: {}
+[0.684451] (my_package_tspc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.685595] (my_package_tspc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.707812] (-) TimerEvent: {}
+[0.788592] (my_package_tspc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.793391] (my_package_tsp) StdoutLine: {'line': b'running egg_info\n'}
+[0.793909] (my_package_tsp) StdoutLine: {'line': b'creating ../../build/my_package_tsp/my_package_tsp.egg-info\n'}
+[0.794195] (my_package_tsp) StdoutLine: {'line': b'writing ../../build/my_package_tsp/my_package_tsp.egg-info/PKG-INFO\n'}
+[0.794512] (my_package_tsp) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package_tsp/my_package_tsp.egg-info/dependency_links.txt\n'}
+[0.794614] (my_package_tsp) StdoutLine: {'line': b'writing entry points to ../../build/my_package_tsp/my_package_tsp.egg-info/entry_points.txt\n'}
+[0.794843] (my_package_tsp) StdoutLine: {'line': b'writing requirements to ../../build/my_package_tsp/my_package_tsp.egg-info/requires.txt\n'}
+[0.794935] (my_package_tsp) StdoutLine: {'line': b'writing top-level names to ../../build/my_package_tsp/my_package_tsp.egg-info/top_level.txt\n'}
+[0.796215] (my_package_tsp) StdoutLine: {'line': b"writing manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'\n"}
+[0.797577] (my_package_tspc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.798028] (my_package_tspc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.800431] (my_package_tspc) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.808102] (-) TimerEvent: {}
+[0.823199] (my_package_tspc) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.823569] (my_package_tsp) StdoutLine: {'line': b"reading manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'\n"}
+[0.823660] (my_package_tspc) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.824034] (my_package_tsp) StdoutLine: {'line': b"writing manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'\n"}
+[0.824132] (my_package_tsp) StdoutLine: {'line': b'running build\n'}
+[0.824200] (my_package_tsp) StdoutLine: {'line': b'running build_py\n'}
+[0.824355] (my_package_tsp) StdoutLine: {'line': b'creating /home/qin/ros2_ws/build/my_package_tsp/build\n'}
+[0.824487] (my_package_tsp) StdoutLine: {'line': b'creating /home/qin/ros2_ws/build/my_package_tsp/build/lib\n'}
+[0.824559] (my_package_tsp) StdoutLine: {'line': b'creating /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.824765] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/i2c_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.824982] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/serial_publisher.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.825067] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/spi_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.825307] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/usb_cam_test.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.825534] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/serial_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.825724] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/keyboard_pub.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.825826] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/subscriber.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.825941] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/__init__.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.826352] (my_package_tsp) StdoutLine: {'line': b'copying my_package_tsp/publisher.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp\n'}
+[0.826453] (my_package_tsp) StdoutLine: {'line': b'running install\n'}
+[0.827165] (my_package_tsp) StdoutLine: {'line': b'running install_lib\n'}
+[0.828145] (my_package_tsp) StdoutLine: {'line': b'creating /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.828374] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/i2c_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.828477] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/serial_publisher.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.828635] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/spi_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.828836] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/usb_cam_test.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.828922] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/serial_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.829064] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/keyboard_pub.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.829304] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/subscriber.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.829501] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/__init__.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.829572] (my_package_tsp) StdoutLine: {'line': b'copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/publisher.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp\n'}
+[0.829882] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/i2c_comm.py to i2c_comm.cpython-38.pyc\n'}
+[0.832556] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/serial_publisher.py to serial_publisher.cpython-38.pyc\n'}
+[0.832989] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/spi_comm.py to spi_comm.cpython-38.pyc\n'}
+[0.833672] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/usb_cam_test.py to usb_cam_test.cpython-38.pyc\n'}
+[0.834082] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/serial_comm.py to serial_comm.cpython-38.pyc\n'}
+[0.834435] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/keyboard_pub.py to keyboard_pub.cpython-38.pyc\n'}
+[0.834792] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/subscriber.py to subscriber.cpython-38.pyc\n'}
+[0.835103] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/__init__.py to __init__.cpython-38.pyc\n'}
+[0.835344] (my_package_tsp) StdoutLine: {'line': b'byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/publisher.py to publisher.cpython-38.pyc\n'}
+[0.835523] (my_package_tsp) StdoutLine: {'line': b'running install_data\n'}
+[0.835679] (my_package_tsp) StdoutLine: {'line': b'creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index\n'}
+[0.835853] (my_package_tsp) StdoutLine: {'line': b'creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index\n'}
+[0.836109] (my_package_tsp) StdoutLine: {'line': b'creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index/packages\n'}
+[0.836431] (my_package_tsp) StdoutLine: {'line': b'copying resource/my_package_tsp -> /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index/packages\n'}
+[0.836521] (my_package_tsp) StdoutLine: {'line': b'copying package.xml -> /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp\n'}
+[0.836607] (my_package_tsp) StdoutLine: {'line': b'creating /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp/launch\n'}
+[0.836690] (my_package_tsp) StdoutLine: {'line': b'copying launch/usb_test_launch.py -> /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp/launch\n'}
+[0.836748] (my_package_tsp) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.838233] (my_package_tsp) StdoutLine: {'line': b'Copying ../../build/my_package_tsp/my_package_tsp.egg-info to /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp-0.0.0-py3.8.egg-info\n'}
+[0.839295] (my_package_tsp) StdoutLine: {'line': b'running install_scripts\n'}
+[0.854896] (my_package_tsp) StdoutLine: {'line': b'Installing keyboard_pub script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp\n'}
+[0.855395] (my_package_tsp) StdoutLine: {'line': b'Installing publisher script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp\n'}
+[0.856680] (my_package_tsp) StdoutLine: {'line': b'Installing serial_comm script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp\n'}
+[0.857058] (my_package_tsp) StdoutLine: {'line': b'Installing serial_pub script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp\n'}
+[0.857248] (my_package_tsp) StdoutLine: {'line': b'Installing spi_comm script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp\n'}
+[0.857347] (my_package_tsp) StdoutLine: {'line': b'Installing subscriber script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp\n'}
+[0.857416] (my_package_tsp) StdoutLine: {'line': b'Installing usb_cam_test_node script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp\n'}
+[0.857583] (my_package_tsp) StdoutLine: {'line': b"writing list of installed files to '/home/qin/ros2_ws/build/my_package_tsp/install.log'\n"}
+[0.885119] (my_package_tsp) CommandEnded: {'returncode': 0}
+[0.897230] (my_package_tsp) JobEnded: {'identifier': 'my_package_tsp', 'rc': 0}
+[0.908713] (-) TimerEvent: {}
+[0.999736] (my_package_tspc) StdoutLine: {'line': b'-- Found rclc: 1.1.2 (/opt/ros/foxy/share/rclc/cmake)\n'}
+[1.009297] (-) TimerEvent: {}
+[1.031821] (my_package_tspc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.037637] (my_package_tspc) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.109521] (-) TimerEvent: {}
+[1.135335] (my_package_tspc) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.165711] (my_package_tspc) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.210076] (-) TimerEvent: {}
+[1.238943] (my_package_tspc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.285790] (my_package_tspc) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.286693] (my_package_tspc) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.287598] (my_package_tspc) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.310530] (-) TimerEvent: {}
+[1.373548] (my_package_tspc) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.374029] (my_package_tspc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.410798] (-) TimerEvent: {}
+[1.466626] (my_package_tspc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.467144] (my_package_tspc) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.511028] (-) TimerEvent: {}
+[1.540946] (my_package_tspc) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.541205] (my_package_tspc) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.611485] (-) TimerEvent: {}
+[1.623497] (my_package_tspc) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.624904] (my_package_tspc) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.648275] (my_package_tspc) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.712000] (-) TimerEvent: {}
+[1.779802] (my_package_tspc) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[1.784455] (my_package_tspc) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.785477] (my_package_tspc) StdoutLine: {'line': b"-- Checking for module 'libmicrohttpd'\n"}
+[1.805227] (my_package_tspc) StdoutLine: {'line': b'--   Found libmicrohttpd, version 0.9.66\n'}
+[1.812625] (-) TimerEvent: {}
+[1.860919] (my_package_tspc) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.913611] (-) TimerEvent: {}
+[1.940487] (my_package_tspc) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.941782] (my_package_tspc) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.942183] (my_package_tspc) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.942370] (my_package_tspc) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.943297] (my_package_tspc) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.943442] (my_package_tspc) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.944227] (my_package_tspc) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.945304] (my_package_tspc) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.945413] (my_package_tspc) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.945794] (my_package_tspc) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.955391] (my_package_tspc) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.980258] (my_package_tspc) StdoutLine: {'line': b'-- Generating done\n'}
+[1.997797] (my_package_tspc) StdoutLine: {'line': b'-- Build files have been written to: /home/qin/ros2_ws/build/my_package_tspc\n'}
+[2.010321] (my_package_tspc) CommandEnded: {'returncode': 0}
+[2.011441] (my_package_tspc) JobProgress: {'identifier': 'my_package_tspc', 'progress': 'build'}
+[2.011522] (my_package_tspc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qin/ros2_ws/build/my_package_tspc', '--', '-j8', '-l8'], 'cwd': '/home/qin/ros2_ws/build/my_package_tspc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'qin'), ('SSH_CLIENT', '192.168.1.11 64307 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/qin'), ('OLDPWD', '/home/qin'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'qin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/qin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/qin/ros2_ws/build/my_package_tspc'), ('SSH_CONNECTION', '192.168.1.11 64307 192.168.1.18 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.013911] (-) TimerEvent: {}
+[2.062784] (my_package_tspc) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_publisher\x1b[0m\n'}
+[2.062996] (my_package_tspc) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target keyboard_pub\x1b[0m\n'}
+[2.063065] (my_package_tspc) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sub_node\x1b[0m\n'}
+[2.063138] (my_package_tspc) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub_node\x1b[0m\n'}
+[2.063198] (my_package_tspc) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target usb_cam_test\x1b[0m\n'}
+[2.097562] (my_package_tspc) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/serial_publisher.dir/src/serial_publisher.c.o\x1b[0m\n'}
+[2.104220] (my_package_tspc) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_test.dir/src/usb_cam_test.cpp.o\x1b[0m\n'}
+[2.118299] (-) TimerEvent: {}
+[2.127137] (my_package_tspc) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/sub_node.dir/src/sub_node.cpp.o\x1b[0m\n'}
+[2.132645] (my_package_tspc) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/keyboard_pub.dir/src/keyboard_pub.cpp.o\x1b[0m\n'}
+[2.150392] (my_package_tspc) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_node.dir/src/pub_node.cpp.o\x1b[0m\n'}
+[2.160981] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/serial_publisher.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kmain\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.161307] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/serial_publisher.c:67:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_fini\x1b[m\x1b[K\xe2\x80\x99, declared with attribute warn_unused_result [\x1b[01;35m\x1b[K-Wunused-result\x1b[m\x1b[K]\n'}
+[2.161390] (my_package_tspc) StderrLine: {'line': b'   67 |     (void)\x1b[01;35m\x1b[Krcl_subscription_fini(&subscription, &node)\x1b[m\x1b[K;\n'}
+[2.161453] (my_package_tspc) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.161509] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/serial_publisher.c:68:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Krcl_node_fini\x1b[m\x1b[K\xe2\x80\x99, declared with attribute warn_unused_result [\x1b[01;35m\x1b[K-Wunused-result\x1b[m\x1b[K]\n'}
+[2.161630] (my_package_tspc) StderrLine: {'line': b'   68 |     (void)\x1b[01;35m\x1b[Krcl_node_fini(&node)\x1b[m\x1b[K;\n'}
+[2.161693] (my_package_tspc) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.209484] (my_package_tspc) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C executable serial_publisher\x1b[0m\n'}
+[2.218897] (-) TimerEvent: {}
+[2.319475] (-) TimerEvent: {}
+[2.368350] (my_package_tspc) StdoutLine: {'line': b'[ 60%] Built target serial_publisher\n'}
+[2.420476] (-) TimerEvent: {}
+[2.521109] (-) TimerEvent: {}
+[2.621921] (-) TimerEvent: {}
+[2.722794] (-) TimerEvent: {}
+[2.823645] (-) TimerEvent: {}
+[2.924377] (-) TimerEvent: {}
+[3.025326] (-) TimerEvent: {}
+[3.126138] (-) TimerEvent: {}
+[3.227213] (-) TimerEvent: {}
+[3.328392] (-) TimerEvent: {}
+[3.428900] (-) TimerEvent: {}
+[3.529476] (-) TimerEvent: {}
+[3.630249] (-) TimerEvent: {}
+[3.679887] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* video_feed(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.680692] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:21:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.680864] (my_package_tspc) StderrLine: {'line': b'   21 | void *video_feed(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K) {\n'}
+[3.680997] (my_package_tspc) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.681121] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint answer_to_connection(void*, MHD_Connection*, const char*, const char*, const char*, const char*, size_t*, void**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.681252] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:50:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcls\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.681404] (my_package_tspc) StderrLine: {'line': b'   50 | static int answer_to_connection(\x1b[01;35m\x1b[Kvoid *cls\x1b[m\x1b[K, struct MHD_Connection *connection,\n'}
+[3.681524] (my_package_tspc) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.681639] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:51:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmethod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.681756] (my_package_tspc) StderrLine: {'line': b'   51 |                                  const char *url, \x1b[01;35m\x1b[Kconst char *method\x1b[m\x1b[K,\n'}
+[3.681876] (my_package_tspc) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.682002] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:52:46:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kversion\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.682258] (my_package_tspc) StderrLine: {'line': b'   52 |                                  \x1b[01;35m\x1b[Kconst char *version\x1b[m\x1b[K, const char *upload_data,\n'}
+[3.682342] (my_package_tspc) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[3.682418] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:52:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kupload_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.682512] (my_package_tspc) StderrLine: {'line': b'   52 |                                  const char *version, \x1b[01;35m\x1b[Kconst char *upload_data\x1b[m\x1b[K,\n'}
+[3.682594] (my_package_tspc) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.682664] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:53:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kupload_data_size\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.682757] (my_package_tspc) StderrLine: {'line': b'   53 |                                  \x1b[01;35m\x1b[Ksize_t *upload_data_size\x1b[m\x1b[K, void **con_cls) {\n'}
+[3.682827] (my_package_tspc) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.682891] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:53:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcon_cls\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.682948] (my_package_tspc) StderrLine: {'line': b'   53 |                                  size_t *upload_data_size, \x1b[01;35m\x1b[Kvoid **con_cls\x1b[m\x1b[K) {\n'}
+[3.683002] (my_package_tspc) StderrLine: {'line': b'      |                                                            \x1b[01;35m\x1b[K~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[3.683056] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* ros2_node(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.683111] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:92:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.683181] (my_package_tspc) StderrLine: {'line': b'   92 | void *ros2_node(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K) {\n'}
+[3.683244] (my_package_tspc) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.683312] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.683369] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:101:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.683423] (my_package_tspc) StderrLine: {'line': b'  101 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char *argv[]) {\n'}
+[3.683666] (my_package_tspc) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[3.683770] (my_package_tspc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:101:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.683871] (my_package_tspc) StderrLine: {'line': b'  101 | int main(int argc, \x1b[01;35m\x1b[Kchar *argv[]\x1b[m\x1b[K) {\n'}
+[3.683960] (my_package_tspc) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.730906] (-) TimerEvent: {}
+[3.831464] (-) TimerEvent: {}
+[3.932069] (-) TimerEvent: {}
+[4.032620] (-) TimerEvent: {}
+[4.133304] (-) TimerEvent: {}
+[4.234149] (-) TimerEvent: {}
+[4.335132] (-) TimerEvent: {}
+[4.435735] (-) TimerEvent: {}
+[4.536342] (-) TimerEvent: {}
+[4.637156] (-) TimerEvent: {}
+[4.706099] (my_package_tspc) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_test\x1b[0m\n'}
+[4.737643] (-) TimerEvent: {}
+[4.838610] (-) TimerEvent: {}
+[4.939055] (-) TimerEvent: {}
+[5.040148] (-) TimerEvent: {}
+[5.143815] (-) TimerEvent: {}
+[5.244313] (-) TimerEvent: {}
+[5.252231] (my_package_tspc) StdoutLine: {'line': b'[ 70%] Built target usb_cam_test\n'}
+[5.344964] (-) TimerEvent: {}
+[5.445708] (-) TimerEvent: {}
+[5.546298] (-) TimerEvent: {}
+[5.647470] (-) TimerEvent: {}
+[5.748286] (-) TimerEvent: {}
+[5.802029] (my_package_tspc) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable keyboard_pub\x1b[0m\n'}
+[5.848798] (-) TimerEvent: {}
+[5.905222] (my_package_tspc) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable pub_node\x1b[0m\n'}
+[5.949263] (-) TimerEvent: {}
+[6.004505] (my_package_tspc) StdoutLine: {'line': b'[ 90%] Built target keyboard_pub\n'}
+[6.049506] (-) TimerEvent: {}
+[6.102364] (my_package_tspc) StdoutLine: {'line': b'[ 90%] Built target pub_node\n'}
+[6.150041] (-) TimerEvent: {}
+[6.250524] (-) TimerEvent: {}
+[6.351043] (-) TimerEvent: {}
+[6.451400] (-) TimerEvent: {}
+[6.551941] (-) TimerEvent: {}
+[6.652647] (-) TimerEvent: {}
+[6.753177] (-) TimerEvent: {}
+[6.853620] (-) TimerEvent: {}
+[6.954304] (-) TimerEvent: {}
+[7.055104] (-) TimerEvent: {}
+[7.155817] (-) TimerEvent: {}
+[7.256365] (-) TimerEvent: {}
+[7.357030] (-) TimerEvent: {}
+[7.457732] (-) TimerEvent: {}
+[7.463493] (my_package_tspc) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sub_node\x1b[0m\n'}
+[7.558401] (-) TimerEvent: {}
+[7.659278] (-) TimerEvent: {}
+[7.699839] (my_package_tspc) StdoutLine: {'line': b'[100%] Built target sub_node\n'}
+[7.714470] (my_package_tspc) CommandEnded: {'returncode': 0}
+[7.717270] (my_package_tspc) JobProgress: {'identifier': 'my_package_tspc', 'progress': 'install'}
+[7.731695] (my_package_tspc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/qin/ros2_ws/build/my_package_tspc'], 'cwd': '/home/qin/ros2_ws/build/my_package_tspc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'qin'), ('SSH_CLIENT', '192.168.1.11 64307 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/qin'), ('OLDPWD', '/home/qin'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'qin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/qin/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('PWD', '/home/qin/ros2_ws/build/my_package_tspc'), ('SSH_CONNECTION', '192.168.1.11 64307 192.168.1.18 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.741575] (my_package_tspc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.742007] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/pub_node\n'}
+[7.744072] (my_package_tspc) StdoutLine: {'line': b'-- Set runtime path of "/home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/pub_node" to ""\n'}
+[7.744418] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/sub_node\n'}
+[7.748567] (my_package_tspc) StdoutLine: {'line': b'-- Set runtime path of "/home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/sub_node" to ""\n'}
+[7.748758] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/usb_cam_test\n'}
+[7.749370] (my_package_tspc) StdoutLine: {'line': b'-- Set runtime path of "/home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/usb_cam_test" to ""\n'}
+[7.749620] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/serial_publisher\n'}
+[7.749983] (my_package_tspc) StdoutLine: {'line': b'-- Set runtime path of "/home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/serial_publisher" to ""\n'}
+[7.750229] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/keyboard_pub\n'}
+[7.752233] (my_package_tspc) StdoutLine: {'line': b'-- Set runtime path of "/home/qin/ros2_ws/install/my_package_tspc/lib/my_package_tspc/keyboard_pub" to ""\n'}
+[7.752485] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/ament_index/resource_index/package_run_dependencies/my_package_tspc\n'}
+[7.752727] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/ament_index/resource_index/parent_prefix_path/my_package_tspc\n'}
+[7.753056] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/environment/ament_prefix_path.sh\n'}
+[7.753246] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/environment/ament_prefix_path.dsv\n'}
+[7.753412] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/environment/path.sh\n'}
+[7.753642] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/environment/path.dsv\n'}
+[7.753843] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/local_setup.bash\n'}
+[7.754022] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/local_setup.sh\n'}
+[7.754243] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/local_setup.zsh\n'}
+[7.754494] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/local_setup.dsv\n'}
+[7.755146] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/package.dsv\n'}
+[7.755243] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/ament_index/resource_index/packages/my_package_tspc\n'}
+[7.755352] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/cmake/my_package_tspcConfig.cmake\n'}
+[7.755699] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/cmake/my_package_tspcConfig-version.cmake\n'}
+[7.755945] (my_package_tspc) StdoutLine: {'line': b'-- Installing: /home/qin/ros2_ws/install/my_package_tspc/share/my_package_tspc/package.xml\n'}
+[7.759801] (my_package_tspc) CommandEnded: {'returncode': 0}
+[7.760359] (-) TimerEvent: {}
+[7.775819] (my_package_tspc) JobEnded: {'identifier': 'my_package_tspc', 'rc': 0}
+[7.777435] (-) EventReactorShutdown: {}

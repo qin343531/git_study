@@ -1,0 +1,14 @@
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/install/strip.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/keyboard_pub.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/install/local.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/sub_node.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/pub_node.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/usb_cam_test.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/list_install_components.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/install.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/serial_publisher.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/uninstall.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/my_package_tspc_uninstall.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/test.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/rebuild_cache.dir
+/home/qin/ros2_ws/build/my_package_tspc/CMakeFiles/edit_cache.dir

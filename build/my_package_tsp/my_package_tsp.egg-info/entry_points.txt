@@ -1,0 +1,9 @@
+[console_scripts]
+keyboard_pub = my_package_tsp.keyboard_pub:main
+publisher = my_package_tsp.publisher:main
+serial_comm = my_package_tsp.serial_comm:main
+serial_pub = my_package_tsp.serial_publisher:main
+spi_comm = my_package_tsp.spi_comm:main
+subscriber = my_package_tsp.subscriber:main
+usb_cam_test_node = my_package_tsp.usb_cam_test:main
+

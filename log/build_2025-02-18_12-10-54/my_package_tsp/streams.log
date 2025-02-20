@@ -1,0 +1,66 @@
+[0.606s] Invoking command in '/home/qin/ros2_ws/src/my_package_tsp': PYTHONPATH=/home/qin/ros2_ws/build/my_package_tsp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package_tsp build --build-base /home/qin/ros2_ws/build/my_package_tsp/build install --record /home/qin/ros2_ws/build/my_package_tsp/install.log --install-scripts $base/lib/my_package_tsp --single-version-externally-managed install_data
+[0.793s] running egg_info
+[0.793s] creating ../../build/my_package_tsp/my_package_tsp.egg-info
+[0.793s] writing ../../build/my_package_tsp/my_package_tsp.egg-info/PKG-INFO
+[0.794s] writing dependency_links to ../../build/my_package_tsp/my_package_tsp.egg-info/dependency_links.txt
+[0.794s] writing entry points to ../../build/my_package_tsp/my_package_tsp.egg-info/entry_points.txt
+[0.794s] writing requirements to ../../build/my_package_tsp/my_package_tsp.egg-info/requires.txt
+[0.794s] writing top-level names to ../../build/my_package_tsp/my_package_tsp.egg-info/top_level.txt
+[0.795s] writing manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'
+[0.823s] reading manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'
+[0.823s] writing manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'
+[0.823s] running build
+[0.823s] running build_py
+[0.823s] creating /home/qin/ros2_ws/build/my_package_tsp/build
+[0.823s] creating /home/qin/ros2_ws/build/my_package_tsp/build/lib
+[0.824s] creating /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.824s] copying my_package_tsp/i2c_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.824s] copying my_package_tsp/serial_publisher.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.824s] copying my_package_tsp/spi_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.824s] copying my_package_tsp/usb_cam_test.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.825s] copying my_package_tsp/serial_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.825s] copying my_package_tsp/keyboard_pub.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.825s] copying my_package_tsp/subscriber.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.825s] copying my_package_tsp/__init__.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.825s] copying my_package_tsp/publisher.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+[0.825s] running install
+[0.826s] running install_lib
+[0.827s] creating /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.827s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/i2c_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.828s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/serial_publisher.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.828s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/spi_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.828s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/usb_cam_test.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.828s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/serial_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.828s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/keyboard_pub.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.828s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/subscriber.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.829s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/__init__.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.829s] copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/publisher.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+[0.829s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/i2c_comm.py to i2c_comm.cpython-38.pyc
+[0.832s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/serial_publisher.py to serial_publisher.cpython-38.pyc
+[0.832s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/spi_comm.py to spi_comm.cpython-38.pyc
+[0.833s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/usb_cam_test.py to usb_cam_test.cpython-38.pyc
+[0.833s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/serial_comm.py to serial_comm.cpython-38.pyc
+[0.833s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/keyboard_pub.py to keyboard_pub.cpython-38.pyc
+[0.834s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/subscriber.py to subscriber.cpython-38.pyc
+[0.834s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/__init__.py to __init__.cpython-38.pyc
+[0.834s] byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/publisher.py to publisher.cpython-38.pyc
+[0.835s] running install_data
+[0.835s] creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index
+[0.835s] creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index
+[0.835s] creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index/packages
+[0.835s] copying resource/my_package_tsp -> /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index/packages
+[0.836s] copying package.xml -> /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp
+[0.836s] creating /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp/launch
+[0.836s] copying launch/usb_test_launch.py -> /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp/launch
+[0.836s] running install_egg_info
+[0.837s] Copying ../../build/my_package_tsp/my_package_tsp.egg-info to /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp-0.0.0-py3.8.egg-info
+[0.838s] running install_scripts
+[0.854s] Installing keyboard_pub script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[0.855s] Installing publisher script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[0.856s] Installing serial_comm script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[0.856s] Installing serial_pub script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[0.856s] Installing spi_comm script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[0.856s] Installing subscriber script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[0.856s] Installing usb_cam_test_node script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[0.857s] writing list of installed files to '/home/qin/ros2_ws/build/my_package_tsp/install.log'
+[0.885s] Invoked command in '/home/qin/ros2_ws/src/my_package_tsp' returned '0': PYTHONPATH=/home/qin/ros2_ws/build/my_package_tsp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package_tsp build --build-base /home/qin/ros2_ws/build/my_package_tsp/build install --record /home/qin/ros2_ws/build/my_package_tsp/install.log --install-scripts $base/lib/my_package_tsp --single-version-externally-managed install_data

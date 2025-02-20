@@ -1,0 +1,6 @@
+Invoking command in '/home/qin/ros2_ws/build/my_package_tspc': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/qin/ros2_ws/src/my_package_tspc -DCMAKE_INSTALL_PREFIX=/home/qin/ros2_ws/install/my_package_tspc
+Invoked command in '/home/qin/ros2_ws/build/my_package_tspc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/qin/ros2_ws/src/my_package_tspc -DCMAKE_INSTALL_PREFIX=/home/qin/ros2_ws/install/my_package_tspc
+Invoking command in '/home/qin/ros2_ws/build/my_package_tspc': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/qin/ros2_ws/build/my_package_tspc -- -j8 -l8
+Invoked command in '/home/qin/ros2_ws/build/my_package_tspc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/qin/ros2_ws/build/my_package_tspc -- -j8 -l8
+Invoking command in '/home/qin/ros2_ws/build/my_package_tspc': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/qin/ros2_ws/build/my_package_tspc
+Invoked command in '/home/qin/ros2_ws/build/my_package_tspc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/qin/ros2_ws/build/my_package_tspc

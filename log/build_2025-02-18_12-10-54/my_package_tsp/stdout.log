@@ -1,0 +1,64 @@
+running egg_info
+creating ../../build/my_package_tsp/my_package_tsp.egg-info
+writing ../../build/my_package_tsp/my_package_tsp.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_package_tsp/my_package_tsp.egg-info/dependency_links.txt
+writing entry points to ../../build/my_package_tsp/my_package_tsp.egg-info/entry_points.txt
+writing requirements to ../../build/my_package_tsp/my_package_tsp.egg-info/requires.txt
+writing top-level names to ../../build/my_package_tsp/my_package_tsp.egg-info/top_level.txt
+writing manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/qin/ros2_ws/build/my_package_tsp/build
+creating /home/qin/ros2_ws/build/my_package_tsp/build/lib
+creating /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/i2c_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/serial_publisher.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/spi_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/usb_cam_test.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/serial_comm.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/keyboard_pub.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/subscriber.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/__init__.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+copying my_package_tsp/publisher.py -> /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp
+running install
+running install_lib
+creating /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/i2c_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/serial_publisher.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/spi_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/usb_cam_test.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/serial_comm.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/keyboard_pub.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/subscriber.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/__init__.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+copying /home/qin/ros2_ws/build/my_package_tsp/build/lib/my_package_tsp/publisher.py -> /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/i2c_comm.py to i2c_comm.cpython-38.pyc
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/serial_publisher.py to serial_publisher.cpython-38.pyc
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/spi_comm.py to spi_comm.cpython-38.pyc
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/usb_cam_test.py to usb_cam_test.cpython-38.pyc
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/serial_comm.py to serial_comm.cpython-38.pyc
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/keyboard_pub.py to keyboard_pub.cpython-38.pyc
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/subscriber.py to subscriber.cpython-38.pyc
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp/publisher.py to publisher.cpython-38.pyc
+running install_data
+creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index
+creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index
+creating /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index/packages
+copying resource/my_package_tsp -> /home/qin/ros2_ws/install/my_package_tsp/share/ament_index/resource_index/packages
+copying package.xml -> /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp
+creating /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp/launch
+copying launch/usb_test_launch.py -> /home/qin/ros2_ws/install/my_package_tsp/share/my_package_tsp/launch
+running install_egg_info
+Copying ../../build/my_package_tsp/my_package_tsp.egg-info to /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp-0.0.0-py3.8.egg-info
+running install_scripts
+Installing keyboard_pub script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+Installing publisher script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+Installing serial_comm script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+Installing serial_pub script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+Installing spi_comm script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+Installing subscriber script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+Installing usb_cam_test_node script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+writing list of installed files to '/home/qin/ros2_ws/build/my_package_tsp/install.log'

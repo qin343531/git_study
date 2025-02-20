@@ -1,0 +1,27 @@
+[1.126s] Invoking command in '/home/qin/ros2_ws/src/my_package_tsp': PYTHONPATH=/home/qin/ros2_ws/build/my_package_tsp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package_tsp build --build-base /home/qin/ros2_ws/build/my_package_tsp/build install --record /home/qin/ros2_ws/build/my_package_tsp/install.log --install-scripts $base/lib/my_package_tsp --single-version-externally-managed install_data
+[1.439s] running egg_info
+[1.440s] writing ../../build/my_package_tsp/my_package_tsp.egg-info/PKG-INFO
+[1.441s] writing dependency_links to ../../build/my_package_tsp/my_package_tsp.egg-info/dependency_links.txt
+[1.442s] writing entry points to ../../build/my_package_tsp/my_package_tsp.egg-info/entry_points.txt
+[1.442s] writing requirements to ../../build/my_package_tsp/my_package_tsp.egg-info/requires.txt
+[1.442s] writing top-level names to ../../build/my_package_tsp/my_package_tsp.egg-info/top_level.txt
+[1.486s] reading manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'
+[1.488s] writing manifest file '../../build/my_package_tsp/my_package_tsp.egg-info/SOURCES.txt'
+[1.488s] running build
+[1.488s] running build_py
+[1.490s] running install
+[1.492s] running install_lib
+[1.495s] running install_data
+[1.496s] running install_egg_info
+[1.498s] removing '/home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp-0.0.0-py3.8.egg-info' (and everything under it)
+[1.499s] Copying ../../build/my_package_tsp/my_package_tsp.egg-info to /home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages/my_package_tsp-0.0.0-py3.8.egg-info
+[1.501s] running install_scripts
+[1.518s] Installing keyboard_pub script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[1.518s] Installing publisher script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[1.519s] Installing serial_comm script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[1.519s] Installing serial_pub script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[1.519s] Installing spi_comm script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[1.520s] Installing subscriber script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[1.520s] Installing usb_cam_test_node script to /home/qin/ros2_ws/install/my_package_tsp/lib/my_package_tsp
+[1.520s] writing list of installed files to '/home/qin/ros2_ws/build/my_package_tsp/install.log'
+[1.548s] Invoked command in '/home/qin/ros2_ws/src/my_package_tsp' returned '0': PYTHONPATH=/home/qin/ros2_ws/build/my_package_tsp/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/qin/ros2_ws/install/my_package_tsp/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package_tsp build --build-base /home/qin/ros2_ws/build/my_package_tsp/build install --record /home/qin/ros2_ws/build/my_package_tsp/install.log --install-scripts $base/lib/my_package_tsp --single-version-externally-managed install_data

@@ -1,0 +1,41 @@
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/serial_publisher.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/serial_publisher.c:67:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_subscription_fini[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   67 |     (void)[01;35m[Krcl_subscription_fini(&subscription, &node)[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/serial_publisher.c:68:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_node_fini[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   68 |     (void)[01;35m[Krcl_node_fini(&node)[m[K;
+      |           [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:[m[K In function ‘[01m[Kvoid* video_feed(void*)[m[K’:
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:21:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   21 | void *video_feed([01;35m[Kvoid *arg[m[K) {
+      |                  [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:[m[K In function ‘[01m[Kint answer_to_connection(void*, MHD_Connection*, const char*, const char*, const char*, const char*, size_t*, void**)[m[K’:
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:50:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcls[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   50 | static int answer_to_connection([01;35m[Kvoid *cls[m[K, struct MHD_Connection *connection,
+      |                                 [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:51:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmethod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   51 |                                  const char *url, [01;35m[Kconst char *method[m[K,
+      |                                                   [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:52:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kversion[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   52 |                                  [01;35m[Kconst char *version[m[K, const char *upload_data,
+      |                                  [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:52:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kupload_data[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   52 |                                  const char *version, [01;35m[Kconst char *upload_data[m[K,
+      |                                                       [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:53:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kupload_data_size[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   53 |                                  [01;35m[Ksize_t *upload_data_size[m[K, void **con_cls) {
+      |                                  [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:53:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcon_cls[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   53 |                                  size_t *upload_data_size, [01;35m[Kvoid **con_cls[m[K) {
+      |                                                            [01;35m[K~~~~~~~^~~~~~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:[m[K In function ‘[01m[Kvoid* ros2_node(void*)[m[K’:
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:92:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   92 | void *ros2_node([01;35m[Kvoid *arg[m[K) {
+      |                 [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:101:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  101 | int main([01;35m[Kint argc[m[K, char *argv[]) {
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/qin/ros2_ws/src/my_package_tspc/src/usb_cam_test.cpp:101:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  101 | int main(int argc, [01;35m[Kchar *argv[][m[K) {
+      |                    [01;35m[K~~~~~~^~~~~~[m[K
